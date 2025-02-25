@@ -9,6 +9,10 @@ SOURCES+= stm8s_i2c.c
 SOURCES+= stm8s_clk.c
 SOURCES+= stm8s_exti.c
 SOURCES+= stm8s_uart1.c
+SOURCES+= stm8s_adc1.c
+
+SOURCES+= demo_i2c.c
+SOURCES+= demo_uart.c
 #SOURCES+= stm8s_tim1.c
 
 RELS=$(SOURCES:.c=.rel)
